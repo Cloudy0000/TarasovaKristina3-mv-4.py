@@ -399,7 +399,7 @@ game_count = 0
 
 def game_over(score):
     global game_count, high_scores
-    if score >= 2:
+    if score >= 100:
         pygame.quit()
         pygame.init()
         screen = pygame.display.set_mode((600, 400))
